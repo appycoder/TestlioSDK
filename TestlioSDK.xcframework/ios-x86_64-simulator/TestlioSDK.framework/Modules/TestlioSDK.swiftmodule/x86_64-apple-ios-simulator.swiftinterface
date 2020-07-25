@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TestlioSDK
+import AVFoundation
+import CoreLocation
+import CoreTelephony
+import CrashReporter
+import Foundation
+import MobileCoreServices
+import Network
+import Photos
+import Swift
+import SystemConfiguration
+@_exported import TestlioSDK
+import UIKit
+extension UIDevice {
+  public static let model: Swift.String
+}
+@objc @_inheritsConvenienceInitializers public class TestlioProtocol : Foundation.URLProtocol {
+  @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: Foundation.URLProtocolClient?)
+  public static func register()
+  public static func unregister()
+  public static let defaultSessionConfiguration: Foundation.URLSessionConfiguration
+  @objc override dynamic public class func canInit(with request: Foundation.URLRequest) -> Swift.Bool
+  @objc override dynamic public class func canonicalRequest(for request: Foundation.URLRequest) -> Foundation.URLRequest
+  @objc override dynamic public class func requestIsCacheEquivalent(_ a: Foundation.URLRequest, to b: Foundation.URLRequest) -> Swift.Bool
+  @objc override dynamic public func startLoading()
+  @objc override dynamic public func stopLoading()
+  @objc deinit
+}
+extension TestlioProtocol : Foundation.URLSessionTaskDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive response: Foundation.URLResponse, completionHandler: @escaping (Foundation.URLSession.ResponseDisposition) -> Swift.Void)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+}
+extension TestlioProtocol : Foundation.URLSessionDataDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+}
+public enum DeviceModel : Swift.String {
+  case simulator, iPod1, iPod2, iPod3, iPod4, iPod5, iPad2, iPad3, iPad4, iPadAir, iPadAir2, iPadAir3, iPad5, iPad6, iPad7, iPadMini, iPadMini2, iPadMini3, iPadMini4, iPadMini5, iPadPro9_7, iPadPro10_5, iPadPro11, iPadPro12_9, iPadPro2_12_9, iPadPro3_12_9, iPhone4, iPhone4S, iPhone5, iPhone5S, iPhone5C, iPhone6, iPhone6Plus, iPhone6S, iPhone6SPlus, iPhoneSE, iPhone7, iPhone7Plus, iPhone8, iPhone8Plus, iPhoneX, iPhoneXS, iPhoneXSMax, iPhoneXR, iPhone11, iPhone11Pro, iPhone11ProMax, iPhoneSE2, AppleTV, AppleTV_4K, unrecognised
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+}
+@_hasMissingDesignatedInitializers @objc public class Testlio : ObjectiveC.NSObject {
+  @objc public static var shared: TestlioSDK.Testlio?
+  public static let defaultMaxReproSteps: Swift.Int
+  public static let defaultMaxNetworkRequests: Swift.Int
+  public static let defaultWindowSize: Swift.Double
+  public static let defaultSamplingRate: Swift.Double
+  @objc public static func start(withClientToken clientToken: Swift.String, collectionId: Swift.String, maxReproSteps: Swift.Int = defaultMaxReproSteps, maxNetworkRequests: Swift.Int = defaultMaxNetworkRequests, samplingRate: Swift.Double = defaultSamplingRate, windowSize: Swift.Double = defaultWindowSize, useTestEnvironment: Swift.Bool = false, useLocationServices: Swift.Bool = true)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension TestlioSDK.DeviceModel : Swift.Equatable {}
+extension TestlioSDK.DeviceModel : Swift.Hashable {}
+extension TestlioSDK.DeviceModel : Swift.RawRepresentable {}

@@ -1,0 +1,11 @@
+framework module TestlioSDK {
+  umbrella header "TestlioSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TestlioSDK.Swift {
+    header "TestlioSDK-Swift.h"
+    requires objc
+}
