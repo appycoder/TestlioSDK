@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		rFxYqRQ6D8BsXs2bHIDkrnPzUec=
+		I267PwMEuI05sfppX/Hg3TRBnH0=
 		</data>
 		<key>Headers/TestlioSDK-Swift.h</key>
 		<data>
-		/xUMy+1bEitawo0WKV88Z6LaKYI=
+		UaNSwlPtsAKMRWevqITw4kT6HjQ=
 		</data>
 		<key>Headers/TestlioSDK.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iOUQvsJV17eIAPVyDVPEfOBnOK8=
+		M69vAPVo71XquE8gRlFFN2xwWiE=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OrkZDvEBHKLkma0GsumMUoZ4/kQ=
+		aQG2rh0LytnTOBRZ90/9UZhpxpU=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HH94ZnLymZXeZz2x/kfhw5RksyQ=
+		b/Z505cY+BIiXvzlPwOpNkoBdjU=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		G/t/HQm8WL8cqNh0Fs4RYfXbC6A=
+		be9VRJWWUaNhTRTvEG3Egw+BMJ8=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		OrkZDvEBHKLkma0GsumMUoZ4/kQ=
+		aQG2rh0LytnTOBRZ90/9UZhpxpU=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		HH94ZnLymZXeZz2x/kfhw5RksyQ=
+		b/Z505cY+BIiXvzlPwOpNkoBdjU=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		G/t/HQm8WL8cqNh0Fs4RYfXbC6A=
+		be9VRJWWUaNhTRTvEG3Egw+BMJ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJ0bQbdjw9rEHiCSBcbpvf2f2yTHZb6iaftXbeIk0LU=
+			P2x8Z6BWN0gke5ylNXIUHoQRI6Fw7XmqdEKLKZQZh6E=
 			</data>
 		</dict>
 		<key>Headers/TestlioSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGl8JNLjYbl/AK0JXWXXfGJ/sh+hImvjmMBB9BTCoCQ=
+			sa1IR9XGICdsfG6zRt6dsU3PlG3PcZeTlEUCeueCW7c=
 			</data>
 		</dict>
 		<key>Headers/TestlioSDK.h</key>
@@ -76,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhbPvAkKkv3HksXrssy4tz5bLjFloW+cYfu72aBcG6c=
+			meVobrhE2fFwHUm5hNxab3We9f1kgG2De9Md4h4IIbE=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nv0P+BeN9tNz+V5wxcfWuQhhQA5GB09CEPEO0gYW25U=
+			FzjgfK5vufy8DEjC65EJWob7e4b3asCAZfPVaygaZKk=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8gVoaaHHze77vsMKyQSeM0qwOnZws4OTuD1WmSrRaF4=
+			n3QCQ/OBYyvyt3+W2Ss+UH4eqDp9fGWXd1Da2j0wBQQ=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhbPvAkKkv3HksXrssy4tz5bLjFloW+cYfu72aBcG6c=
+			meVobrhE2fFwHUm5hNxab3We9f1kgG2De9Md4h4IIbE=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nv0P+BeN9tNz+V5wxcfWuQhhQA5GB09CEPEO0gYW25U=
+			FzjgfK5vufy8DEjC65EJWob7e4b3asCAZfPVaygaZKk=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8gVoaaHHze77vsMKyQSeM0qwOnZws4OTuD1WmSrRaF4=
+			n3QCQ/OBYyvyt3+W2Ss+UH4eqDp9fGWXd1Da2j0wBQQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
