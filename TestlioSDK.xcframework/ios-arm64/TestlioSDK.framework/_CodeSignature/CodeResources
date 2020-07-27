@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pnmHqDvi/QH8LwDBDABaelddoEQ=
+		rFxYqRQ6D8BsXs2bHIDkrnPzUec=
 		</data>
 		<key>Headers/TestlioSDK-Swift.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GHpU48OiIGE1nRK+lx91yS1CFjs=
+		G/t/HQm8WL8cqNh0Fs4RYfXbC6A=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GHpU48OiIGE1nRK+lx91yS1CFjs=
+		G/t/HQm8WL8cqNh0Fs4RYfXbC6A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oqTDOtvrvfNZSqFv4Wfid1ex/UAJKPKPhKsI2rrgmU=
+			xJ0bQbdjw9rEHiCSBcbpvf2f2yTHZb6iaftXbeIk0LU=
 			</data>
 		</dict>
 		<key>Headers/TestlioSDK-Swift.h</key>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wMwwIrpvCV3XrBeco5BztvFtekEAePNVfpwn3acHDAs=
+			8gVoaaHHze77vsMKyQSeM0qwOnZws4OTuD1WmSrRaF4=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wMwwIrpvCV3XrBeco5BztvFtekEAePNVfpwn3acHDAs=
+			8gVoaaHHze77vsMKyQSeM0qwOnZws4OTuD1WmSrRaF4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
