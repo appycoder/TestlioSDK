@@ -12,12 +12,6 @@ let package = Package(
       name: "TestlioSDK",
       targets: ["TestlioSDK"])
   ],
-  dependencies: [
-    .package(
-      url: "https://github.com/microsoft/plcrashreporter.git",
-      from: Version(1, 7, 1)
-    )
-  ],
   targets: [
     .binaryTarget(
       name: "TestlioSDK",
